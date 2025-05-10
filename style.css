@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color: #eae2b7; /* Page background */
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", Times, serif;
+}
+
+/* Font sizes for headings */
+h2 {
+  font-size: 28px; /* Larger for section headers like About, Portfolio, Contact */
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px; /* Smaller for subheadings like project titles, Hi! I'm Pete... */
+  text-align: center;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+}
+
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Rounded image with border */
+.image-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #003049;
+}
+
+/* Center header and footer content */
+header,
+footer {
+  text-align: center;
+}
+
+/* Navigation links-Ahmed */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+/* Anchor link colors- Ahmed */
+a:link {
+  color: #d62828;
+}
+
+a:visited {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+/* List styling- Ahmed */
+ul, ol {
+  display: table;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: left;
+  list-style-position: inside;
+}
