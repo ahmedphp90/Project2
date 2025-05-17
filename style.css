@@ -51,6 +51,12 @@ img {
 
 hr {
   border: 1px solid black;
+  width: 50%;
+  margin: 20px auto;
+}
+
+#about p {
+  text-align: center;
 }
 
 /* Rounded image with border */
